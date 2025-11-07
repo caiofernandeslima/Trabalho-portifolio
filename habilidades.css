@@ -1,0 +1,144 @@
+
+  header {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  .link-logo {
+    text-decoration: none;
+  }
+  .logo {
+    background-color: #ccc;
+    color: black;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    user-select: none;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  .menu a {
+    color: #fff;
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.habilidades {
+    background: #0f253f;
+    height: 100vh;
+    padding: 80px;
+}
+
+.habilidades h1 {
+    color: #ffffff;
+    font-size: 60px;
+    text-decoration: underline;
+}
+
+.skills-container {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.skill {
+    background: #000000;
+    padding: 14px 40px;
+    border-radius: 25px;
+    font-size: 22px;
+    display: inline-block;
+}
+body {
+    margin: 0;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background 0.3s, color 0.3s;
+    min-height: 500vh;
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+  }
+
+
+
+body.dark-mode {
+    --bg-color: #121212;
+    --text-color: #f0f0f0;
+  }
+
+  .switch-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .switch {
+    position: relative;
+    width: 60px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .switch-ball {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    transition: left 0.3s, background-color 0.3s;
+  }
+
+  .dark-mode .switch {
+    background-color: #444;
+  }
+
+  .dark-mode .switch-ball {
+    left: 33px;
+    background-color: #222;
+    color: #f0f0f0;
+  }
+
+  :root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+  }
+
+body.dark-mode section{
+    background-color: #ccc;
+}
+body.dark-mode .habilidades{
+    background-color: #ccc;
+}
+body.dark-mode .skills-container{
+    background-color: #ccc;
+}

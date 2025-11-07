@@ -1,0 +1,161 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #132c4e;
+    color: white;
+  }
+  
+  header {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  .link-logo {
+    text-decoration: none;
+  }
+  .logo {
+    background-color: #ccc;
+    color: black;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    user-select: none;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 40px auto 0 auto;
+    padding: 0 20px;
+    align-items: flex-start;
+  }
+  
+  .intro {
+    max-width: 500px;
+  }
+  
+  .intro h1 {
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: ;
+    margin: 100px 0 20px 0;
+  }
+  
+  .role {
+    font-weight: 400;
+    margin: 0 100px 0 0;
+  }
+  
+  .description {
+    font-weight: 300;
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .btn {
+    background-color: #ccc;
+    color: rgb(0, 0, 0);
+    padding: 19px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: 400;
+    width: 180px;
+    text-align: center;
+    margin: 120px 0 0 0;
+  }
+  
+  .btn:hover {
+    background-color: #bbb;
+  }
+  body {
+    margin: 0;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background 0.3s, color 0.3s;
+    min-height: 500vh;
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+  }
+
+
+
+body.dark-mode {
+    --bg-color: #121212;
+    --text-color: #f0f0f0;
+  }
+
+  .switch-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .switch {
+    position: relative;
+    width: 60px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .switch-ball {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    transition: left 0.3s, background-color 0.3s;
+  }
+
+  .dark-mode .switch {
+    background-color: #444;
+  }
+
+  .dark-mode .switch-ball {
+    left: 33px;
+    background-color: #222;
+    color: #f0f0f0;
+  }
+
+  :root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+  }
+  
